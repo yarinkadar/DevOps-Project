@@ -1,0 +1,9 @@
+testing 
+version: '2'
+
+services:
+  yarin:
+    image: games_project
+    build: .
+    ports:
+      - "5000:5000"
