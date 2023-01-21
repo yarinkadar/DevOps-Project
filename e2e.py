@@ -20,5 +20,3 @@ def main_function():
         sys.exit(0)
     else:
         sys.exit(-1)
-
-main_function()
