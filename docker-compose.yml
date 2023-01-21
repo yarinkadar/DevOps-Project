@@ -4,6 +4,7 @@ version: '2'
 services:
   yarin:
     image: games_project
+    container_name: WorldOfGames_Platform
     build: .
     ports:
       - "5000:5000"
